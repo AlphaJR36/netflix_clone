@@ -23,4 +23,7 @@ EN - It's a clone of Netflix.
 
 ## 📷 | Photos
 
-![AlphaJR.](https://i.imgur.com/aSYN7DM.png)![AlphaJR.](https://i.imgur.com/aSYN7DM.png)
+## ®️ | Original
+![AlphaJR.](https://i.imgur.com/aSYN7DM.png)
+## 🎭 | Clone
+![AlphaJR.](https://i.imgur.com/k0jU2Sj.png)
