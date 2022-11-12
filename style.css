@@ -41,7 +41,7 @@ body::before {
     height: 550px;
     margin-left: 50%;
     background-color: rgb(0, 0, 0, .75);
-    border-radius: 8px;
+    border-radius: 6px;
     box-sizing: border-box;
     transform: translateX(-50%);
 }
@@ -70,4 +70,83 @@ body::before {
 
 .login-form-input {
     margin-bottom: 20px;
+}
+
+.login-form button {
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.login-form button:hover {
+    background-color: rgb(252, 23, 34);
+    cursor: pointer;
+}
+
+.login-form-card-support {
+    display: flex;
+    color: rgb(179, 179, 179);
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.login-form-card-support input {
+    width: 15px;
+    height: 15px;
+}
+
+.login-form-card-support-remember {
+    display: flex;
+    align-items: center;
+}
+
+.login-form-card-support-remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.login-form-card-help a {
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+}
+
+.login-form-card-help a:hover {
+    text-decoration: underline;
+}
+
+.login-footer-sign_up {
+    color: rgb(115, 115, 115);
+    font-size: 16px;
+}
+
+.login-footer-sign_up a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.login-footer-sign_up a:hover {
+    text-decoration: underline;
+}
+
+.login-footer-terms {
+    color: rgb(115, 115, 115);
+    font-size: 13px;
+}
+
+.login-footer-terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.login-footer-terms a:hover {
+    text-decoration: underline;
 }
